@@ -1,0 +1,8 @@
+{
+  "petStoreName": "Cool Shoes",
+  "petStoreAddress": "7777 North Street",
+  "petStoreCity": "Pheonix",
+  "petStoreState": "Arizona",
+  "petStoreZip" : "12345",
+  "petStorePhone": "555-444-3333"
+}

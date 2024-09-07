@@ -1,0 +1,8 @@
+{
+  "petStoreName": "Ultra Pets",
+  "petStoreAddress": "77 West Street",
+  "petStoreCity": "Las Vegas",
+  "petStoreState": "Nevada",
+  "petStoreZip" : "34567",
+  "petStorePhone": "555-222-3454"
+}
