@@ -53,7 +53,8 @@ public class PetStoreController {
 	@GetMapping("/customer/{customerId}")
 	public PetStore retrievePetStoreById (@PathVariable Long petStoreId, @RequestBody PetStoreData petStoreData) {
 		log.info("Retrieving store with ID = []", petStoreId);
-		return petStoreService.findPetStoreById(petStoreId);
+		return petStoreService.retrievePetStoreById(petStoreId);
+
 	}
 	
 	@DeleteMapping("/petStore")
