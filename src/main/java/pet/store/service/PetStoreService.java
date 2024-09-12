@@ -67,7 +67,10 @@ public class PetStoreService {
 	}
 		return petStore;
 	}
-	
+
+	public PetStoreData retrievePetStoreById(Long petStoreId) {
+		return new PetStoreData(findPetStoreById(petStoreId));
+	}
 	
 	@Transactional (readOnly = true)
 	public List<PetStoreData> retrieveAllPetStores() {
